@@ -1,0 +1,64 @@
+.section-feedback .author, .section-feedback .date {
+  display: inline-block;
+  font-family: Arial;
+  margin-right: 6px;
+}
+
+.section-feedback .author {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.section-feedback .date {
+  font-size: 11px;
+  color: #808080;
+}
+
+.section-feedback .text {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 12px;
+  position: relative;
+  background: #F2FBFF;
+  border: 1px solid #C4CBCF;
+  padding: 7px 9px;
+  margin: 11px 0 11px 0;
+}
+
+.section-feedback .text:before { 
+	content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 42px;
+  top: -10px;
+  border: 5px solid;
+  border-color: transparent transparent #C4CBCF #C4CBCF;
+}
+
+.section-feedback .text:after { 
+	content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 43px;
+  top: -8px;
+  border: 4px solid;
+  border-color: transparent transparent #F2FBFF #F2FBFF; 
+}
+
+@media ( min-width: 488px) {
+  .section-feedback .author {
+    font-size: 14px;
+  }
+  
+  .section-feedback .date {
+    font-size: 11px;
+  }
+  
+  .section-feedback .text {
+    font-size: 14px;
+    padding: 11px 19px;
+  }
+  
+}

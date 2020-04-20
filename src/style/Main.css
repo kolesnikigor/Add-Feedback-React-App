@@ -1,0 +1,120 @@
+.main {
+  margin: -12px 40px 0 0;
+}
+
+.main .title {
+  text-align: end;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 11px;
+  margin: 0 -7px 5px 0;
+}
+
+.main .list {
+  border-top: 1px solid #DADADA;
+  border-bottom: 1px solid #DADADA;
+}
+
+.main .list-item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 24px;
+  margin-bottom: 2px;
+}
+
+.main .item-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Arial;
+  margin: 5px 0 0 0;
+}
+
+.list .desc-left {
+  padding-left: 7px;
+}
+
+.list .list-item:first-child {
+  margin-top: 7px;
+}
+
+.list .list-item:last-child {
+  margin-bottom: 7px;
+}
+
+.background-value {
+  position: absolute;
+  z-index: -1;
+}
+
+.green {
+  height: 24px;
+  background: #B1E19B;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.blue {
+   height: 24px;
+  background: #ACE2F8;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-20 {
+  width: 20%;
+}
+
+.width-15 {
+  width: 15%;
+}
+
+.fz-16 {
+  font-size: 12px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+@media ( min-width: 488px) {
+  .main {
+    margin: -12px 40px 0 130px;
+  }
+  
+  .main .title {
+    font-size: 13px;
+  }
+    
+  .main .list-item {
+    font-size: 13px;
+  }
+  
+  .list .list-item:first-child {
+    margin-top: 15px;
+  }
+  
+  .list .list-item:last-child {
+    margin-bottom: 15px;
+  }
+
+  .main .item-bottom {
+    margin: 10px 0 0 0;
+  } 
+
+  .fz-16 {
+    font-size: 16px;
+  }    
+}

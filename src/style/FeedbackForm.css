@@ -1,0 +1,38 @@
+.button {
+  display: block;
+  width: calc(100% - 3em);
+  height: 43px;
+  background: #FDD639;
+  border-radius: 23px;
+  margin:  10px auto;
+  border-style: none;
+  padding: 0;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: PT Sans;
+}
+
+#feedbackDescription {
+  display: inline-block;
+  width: calc(100% - 3em);
+  height: 63px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  margin: 10px 20px 0 20px;
+  resize: none;
+  overflow: auto;
+}
+
+@media ( min-width: 488px) {
+  .button {
+    width: 281px;
+    margin:  20px auto;
+    font-size: 16px;
+  }
+  
+  #feedbackDescription {
+    margin: 35px 20px 0 20px;
+  }
+    
+}

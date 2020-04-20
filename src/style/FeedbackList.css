@@ -1,0 +1,87 @@
+.section-feedback .section-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 17px 0 5px 0;
+}
+
+.section-top .title{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0 0 0 0;
+}
+
+.section-top .link {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 11px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #005DA1;
+  margin-left: 10px;
+}
+
+.section-top .likes-volume {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  margin:4px 0 0 auto;
+}
+
+.section-top .comments-volume {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  margin: 4px 1px 0 30px;
+}
+
+
+.icon-like .path2:before {
+  margin-right: 4px;
+  font-size: 11px;
+}
+
+
+.icon-comment .path2:before {
+  margin-right: 5px;
+  font-size: 11px;
+}
+
+.section-bottom {
+  background: #F2F2F2;
+  margin: 0 -20px;
+  padding-bottom: 10px;
+}
+
+@media ( min-width: 488px) {
+  .section-top .title{
+    font-size: 16px;
+  }
+  
+  .section-top .link {
+    font-size: 14px;
+  }
+  
+  .section-top .likes-volume {
+    font-size: 12px;
+  }
+  
+  .section-top .comments-volume {
+    font-size: 12px;
+  }
+  
+  .icon-like .path2:before {
+    font-size: 13px;
+  }
+  
+  
+  .icon-comment .path2:before {
+    font-size: 14px;
+  }
+}
